@@ -58,6 +58,10 @@ def dennis_ritchies_language
      }
 
    #programmer_hash[:dennis_ritchie][:languages]
+    array = programmer_hash[:dennis_ritchie][:languages]
+   string = array.join
+   return string
+   
 end
 
 def adding_matz
@@ -83,9 +87,7 @@ def adding_matz
         }
      }
 
-    array = programmer_hash[:dennis_ritchie][:languages]
-   string = array.join
-   return string
+   
 end
 
 def changing_alan
