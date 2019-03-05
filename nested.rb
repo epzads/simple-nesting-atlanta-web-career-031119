@@ -83,7 +83,9 @@ def adding_matz
         }
      }
 
-    #programmer_hash = 
+    array = programmer_hash[:dennis_ritchie][:languages]
+   string = array.join
+   return string
 end
 
 def changing_alan
